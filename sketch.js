@@ -66,7 +66,7 @@ function keyPressed() {
 	if (keyCode === UP_ARROW) {
 	console.log("hi i am here")
 	
-	Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-150,y:-150});
+	Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-50,y:-50});
   
 	}
 }
